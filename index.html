@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>List-job</h1>
+    <label for="input-search">Tìm kiếm: <input id="input-search"class="search" placeholder="Nhập vào đây" type="text"></label>
+    <div class="list-jobs"></div>
+    <div class="import-data hidden">
+      <label for="name-tab"
+        >Nhập tên:<input type="text" class="name-table" id="name-tab"
+      /></label>
+      <label for="age-tab"
+        >Nhập tuổi:<input type="text" class="age-table" id="age-tab"
+      /></label>
+      <label for="gender-tab">giới tính:</label>
+
+      <select name="gender-tab" id="gender-tab">
+        <option value='male'>Nam</option>
+        <option value='female'>Nữ</option>
+      </select>
+
+      <select name="job-tab" id="job-tab">
+        <option value='it'>IT</option>
+        <option value='scot'>Sửa chữa ô tô</option>
+        <option value='ck'>Cơ khi</option>
+        <option value='xd'>Xây dựng</option>
+      </select>
+    </div>
+    <button class="add-btn">Thêm</button>
+    <script src="main.js"></script>
+  </body>
+</html>
